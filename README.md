@@ -7,8 +7,8 @@ SETUP
 - Add Authorization Token from github API
 
 - If changing the schema.json and the queries
-  - run npm install apollo-codegen
-  - node_modules/.bin/apollo-codegen download-schema https://api.github.com/graphql --output schema.json --header "Authorization: Bearer YOUR TOKEN"
+  - run `npm install apollo-codegen`
+  - then run `node_modules/.bin/apollo-codegen download-schema https://api.github.com/graphql --output schema.json --header "Authorization: Bearer YOUR TOKEN"`
   - Now create a graphql folder in the /main directory
   - Here you need to create two files, 
     - A .graphql file: where all your graphql queries go
